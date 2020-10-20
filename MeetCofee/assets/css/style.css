@@ -1,0 +1,158 @@
+body{
+    color: #000f08;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body *{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom: 0.25em;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 2.5em;
+    
+}
+
+h3{
+    font-size: 2em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+h4{
+    font-size: 1.75em;
+}
+
+h5{
+    font-size: 1.25em;
+}
+.subtitulo, h4, h5{
+    font-weight: 400;
+}
+
+
+.oscuro{
+    background: #000f08;
+    color: #fff;
+
+}
+
+.oscuro a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav{
+    text-align: left;
+    padding: 1.25rem 4rem;
+    position: fixed;
+    width: 100vw;
+}
+
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+  display: inline-block; 
+  margin: 0 1em; 
+}
+
+.icono{
+    width: 2rem;
+    fill: #fff;
+}
+
+.hero-section{
+    text-align: right;
+    color: #fff;
+    background-image: url('../img/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    padding: 6.25rem  3.125rem;
+
+}
+.sweet-brown{
+    text-align: left;
+    background: #a4452c;
+    color: #fff;
+    padding: 50px;
+    white-space: nowrap;
+}
+
+.sweet-brown h3, .sweet-brown h5, .sweet-brown h2{
+    margin-bottom: 0.25em;
+}
+
+
+.ubicacion h2{
+    margin: 1.25em;
+}
+
+
+.charla-texto, .evento{
+    display: inline-block;
+}
+
+.centrado{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.charla-speaker{
+    width: 25%;
+    vertical-align: middle;
+}
+
+.charla-texto{
+    width: 70%;
+    vertical-align: middle;
+    margin-left: 5%;
+    white-space: normal;
+}
+
+.eventos h2{
+    margin-bottom: 1.25em;
+}
+
+section, footer{
+    margin-top: 75px;
+}
+
+footer{
+    padding: 50px;
+}
+footer i{
+    margin: 0 0.25em 0.5em 0.25em;
+}
+
+.articulo-evento{
+    text-align: left;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.articulo-evento h1{
+    margin-top: 1.75em;
+    margin-bottom: 1.75em;
+}
+
+.articulo-evento p{
+    margin: 1.75em 0em 0.25em 0em;
+    
+}
+
+.articulo-evento h3{
+    margin: 1.25em 0em 0.25em 0em;
+}
