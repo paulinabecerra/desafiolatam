@@ -1,0 +1,8 @@
+.presentacion{
+    background-image: url('assest/img/header.jpg');
+    background-size: cover;
+}
+
+.body{
+    background-color: black;
+}
