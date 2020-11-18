@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Roboto: wght @ 700 & display = swap" rel = "hoja de estilo">
+    
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning ">
         <div class="container">
           <a class="navbar-brand" href="#"> Paulina Becerra </a>
   
@@ -19,45 +27,221 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Sobre mi </a>
+                <a class="nav-link" href="#about">Sobre mi </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Experiencia</a>
+                <a class="nav-link" href="#experiencia">Experiencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Trabajos</a>
+                <a class="nav-link" href="#work">Trabajos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
-      <div class="container presentacion text-center">
-          <div class="row>">
-            <div class="col">
-                <h1>PAULINA BECERRA</h1>
-                <hr>
-                <p>Diseñadora UI/UX </p>
+      <header id="about" class="presentacion text-left pt-5 mt-5">
+        <div class="container">
+          <h1 class="font-weight-bold my-5">Hola! soy <br>Paulina Becerra</h1>
+          <h2 class="my-5">Diseñadora UI/UX</h2>
+          
+        </div>
+      </header>
+
+      <div class="container my-5">
+        <div class="row">
+          <div class="col descripcion">
+            <p>Vengo del mundo de la publicidad me titulé en UNIACC pero me desempeñe como diseñadora
+              digital, luego como diseñadora front end y actualmente trabajo como diseñadora UI/ UX. </p>
+              <p>He trabajado con empresas de retail, ecommerce, banca y medios de pagos digitales. </p>
+              <p>He trabajado en proyectos tales como aplicaciones de medios de pago, landings comerciales, plataformas de control de flotas, sitios de ecommerce, etc.</p>
+              
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <h3 class="my-5 text-color  text-bold">MIS HOBBIES <hr width="30%"></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-4 text-center">
+            <i class="fas fa-film"></i>
+            <p>Ver películas, series y documentales</p>
+          </div>
+          <div class="col-sm-12 col-md-4 text-center">
+            <i class="fas fa-paint-brush"></i>
+            <p>Hacer ilustraciones</p>
+          </div>
+          <div class="col-sm-12 col-md-4 text-center">
+            <i class="fas fa-bicycle"></i>
+            <p>Andar en bici</p>
+          </div>
+        </div>
+      
+      </div>
+
+      <div id="experiencia" class="container-fluid py-5 bg-light">
+        <div class="row">
+          <div class="col text-center">
+            <h3>MI EXPERIENCIA <hr width="30%"></h3>
+          </div>
+          
+        </div>
+
+        <div class="row my-5">
+          <div class="ccol-sm-12 col-md-6">
+            <ul>
+              <li> Diseñadora UI / UX | Universal Payments<br>
+              Jun 2019 hasta la Actualidad | 1 año y 6 meses</li>
+              <li> Diseñadora UI | Tekpro Ecommerce<br>
+                Jun 2018 hasta Jun 2019 | 1 año y 6 meses</li>
+              <li>Diseñadora Front end | Agencia Doubleyou<br>
+                Mar 2017 hasta Abr 2018 | 1 año y 2 meses</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <ul>
+              <li>Diseñadora Front end | Dafiti Chile<br>
+              Jun 2015 hasta Mar. 2017 | 1 año y 10 meses</li>
+              <li>Diseñadora Digital | Cuponatic<br>
+                Sept. 2014 hasta Jul. 2015 | 11 meses</li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <section class="container-fluid my-5 p-5" id="work">
+        <h2 class="text-center text-warning ">Mis trabajos</h2><hr width="30%">
+        <div class="card-deck my-5">
+          <div class="card">
+            <img class="card-img-top" src="assets/img/card1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Rhein</h5>
+              <p class="card-text">Diseño sitio catálogo de productos naturales</p>
+              <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#asado">Ver más</button>
             </div>
           </div>
-
-          <div class="row">
-              <div class="col">
-                  <p>Publicista de UNIACC con experiencia en empresas de Ecommerce, retail, banca y marcas masivas, me he desempeñado como diseñadora digital, diseñadora web y actualmente como diseñadora UI / UX .Poseo experiencia en desarrollo de proyectos digitales, campañas publicitarias, desarrollo de aplicaciones y sitios webs para diferentes marcas.</p>
-                  <hr>
-              </div>
+          <div class="card">
+            <img class="card-img-top" src="assets/img/card2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Ecommerce Planta Maestra</h5>
+              <p class="card-text">Diseño sitio ecommerce de productos naturales</p>
+              
+              <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#papas">Ver más</button>
+            </div>
           </div>
-
-          <div class="row">
-              <div class="col">
-                  <h4>Mi experiencia</h4>
-              </div>
+          <div class="card">
+            <img class="card-img-top" src="assets/img/card3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Parcelas Curarrehue</h5>
+              <p class="card-text">Diseño sitio venta de Parcelas</p>
+              <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#salmones">Ver más</button>
+            </div>
           </div>
-             
+        </div>
+      </section>
+  
+      <div class="modal fade" id="rehin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Rediseño sitio web </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid mb-3" src="assets/img/rehin2.jpg" alt="Card image cap">
+  
+              <p>El desafío era realizar un nuevo sitio web para la marca Rhein, en el cuál los usuarios pudieran conocer toda la gama de productos que la marca ofrece a nivel de catálogo</p>
+  
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
       </div>
+  
+      <div class="modal fade" id="planta" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Planta Maestra</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid mb-3" src="assets/img/planta2.jpg" alt="Card image cap">
+  
+              <p>Planta Maestra es una marca de productos naturales, diseñe su ecommerce y me enfoque en que el sitio fuese limpio, fácil de navegar y con categorías de fácil entendimiento. Por eso con el equipo desarrollamos 
+                una serie de iconos que ayudaban al usuario a filtrar por categoría los productos. Ejemplo: Vegetarianos, veganos, libre de glutén, etc.
+              </p>
+  
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="modal fade" id="parcelas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Parcelas Curarrehue</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid mb-3" src="assets/img/condominio2.jpg" alt="Card image cap">
+  
+              <p>Diseño y programación de sitio de venta de parcelas</p>
+  
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+      <section id="contacto" class="container-fluid py-5 my-5  ">
+        <h2 class="text-center ">CONTACTO</h2>
+        <p class="text-center my-4">Si quieres comunicarte conmigo por favor ingresa tus datos en el siguiente formulario</p>
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/GV8IlsNq" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=GV8IlsNq&utm_source=typeform.com-01EQBJQGEJJ2T4G7W901F53ERK-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+      </section>
+  
+      <footer class="bg-warning text-center text-light p-3 m-0 footer">
+        
+        <p>Sígueme en: <a href="https://www.behance.net/paubook"><i class="fab fa-behance"></i> </a> <a href="https://www.linkedin.com/in/paulina-becerra-64795967/"><i class="fab fa-linkedin-in"></i></a></p>
+        <p>Paulina Becerra 2020. Todos los derechos reservados.</p>
+      </footer>
+  
+    
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  
+      
+      <script src="assets/js/js.js"></script>
+
+      </div>
+             
+     
 
 </body>
 </html>

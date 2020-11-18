@@ -1,8 +1,80 @@
-.presentacion{
-    background-image: url('assest/img/header.jpg');
-    background-size: cover;
+body{
+    color: #2b2b2b;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
-.body{
-    background-color: black;
+h2,h3,h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+header {
+    background-image: url('../img/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+  }
+.presentacion h1{
+    font-size:70px;
+}
+.presentacion h2{
+    color: rgb(255, 193, 62);
+    font-size: 30px;   
+}
+
+.experiencia{
+    background-color: #f5f5f5;
+}
+
+
+li {
+    padding-bottom: 20px;
+    
+}
+
+  
+
+  .btn{
+      border-radius: 1.25rem !important;
+  }
+
+  .modal-dialog {
+    max-width: 70% !important;
+    margin: 1.75rem auto;
+}
+
+i{
+    color:rgb(255, 193, 62);
+    font-size: 2em;
+    margin: 1em;
+}
+
+.footer i{
+    color: #fff;
+    font-size: 1,7em;
+    margin: 10px;
+
+}
+
+@media screen and (max-width: 414px){
+    header {
+        background-image: url('../img/back-mov.jpg');
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-size: cover;
+        height: 600px;
+        margin-top: 0 !important;
+        
+      } 
+      .presentacion h1{
+        font-size:70px;
+        color:#fff;
+        text-shadow: 2px 2px #0000;
+    }
+
+    .descripcion{
+        display: none;
+    }
 }
